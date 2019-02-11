@@ -4,7 +4,7 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
+    font-family: Raleway, 'Handlee', cursive;
     font-size: 13pt;
     background-color: #bfbfbf;
     padding: 10px;
@@ -17,6 +17,7 @@ body {
     border-radius: 1px;
   }
 h1 {
+  font-family: Raleway;
   font-size: 15pt;
   color: #233;
   text-align: center;
@@ -24,7 +25,7 @@ h1 {
   margin: 0 0 10px 0;
   }
 h1 span {
-  border: 4px dashed #333;
+  border: 2px dashed #333;
   padding: 10px;
   }
 p {
@@ -38,9 +39,10 @@ p {
 #header {
       background-image: url("");
       background-size: cover;
+      background-color: #8000FF
   }
 #header img {
-  border: 2px solid #333;
+  border: 2px solid #FFFF00;
   border-radius: 50%;
   display: block;
   width: 80px;
@@ -49,7 +51,7 @@ p {
   }
 #header p {
       font-size: 25pt;
-      color: #3b464c;
+      color: #fff;
       padding-top: 5px;
       margin: 0;
       font-weight: bold;
@@ -103,9 +105,15 @@ input, textarea {
 }
 /*ends*/
 
+#contacts{
+  background-color: #3030CF;
 
-
-
+}
+#social-icons a img{
+  margin: 10px;
+  height: 32px;
+  color: #fff;
+}
 
 
 
