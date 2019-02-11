@@ -1,18 +1,12 @@
 /*General starts*/
-html {
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: Raleway, 'Handlee', cursive;
     font-size: 13pt;
     background-color: #bfbfbf;
     padding: 10px;
-    margin: 0;
 }
 .section {
     background-color: #fff;
-    padding: 15px;
     margin-bottom: 20px;
     border-radius: 1px;
   }
