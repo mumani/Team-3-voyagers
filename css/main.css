@@ -1,17 +1,107 @@
-/*starts*/
+/*General starts*/
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #bfbfbf;
+    padding: 10px;
+    margin: 0;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+  }
+h1 {
+  font-size: 15pt;
+  color: #233;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+  }
+h1 span {
+  border: 4px dashed #333;
+  padding: 10px;
+  }
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+  }
 /*ends*/
 
+/*header starts*/
+#header {
+      background-image: url("");
+      background-size: cover;
+  }
+#header img {
+  border: 2px solid #333;
+  border-radius: 50%;
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  }
+#header p {
+      font-size: 25pt;
+      color: #3b464c;
+      padding-top: 5px;
+      margin: 0;
+      font-weight: bold;
+      text-align: center;
+  }
+.img-circle {
+  background-color: #888;
+  }
+/*ends*/
 
+/*Intro starts*/
 
+/*ends*/
 
+/*'Featured Intern trainee' starts*/
 
+/*ends*/
 
-
-
-
-
-
-
+/*Contact Us starts*/
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #888;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #555;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #bfbfbf;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+/*ends*/
 
 
 
