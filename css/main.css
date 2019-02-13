@@ -29,7 +29,15 @@ p {
   }
 strong{
   font-weight: bold;
+}
 
+ul{
+  list-style: none;
+}
+
+li{
+  display: block;
+  width: 100%;
 }
 /*ends*/
 
@@ -120,10 +128,19 @@ strong{
   height: 500px;
 }
 
+.text{
+  width: 60% !important;
+}
+
 img[alt="icon"] {
   float: left;
   height: 80px;
   width: 80px;
+}
+
+img[alt="lang"] {
+  height: 30px;
+  width: 30px;
 }
 
 .img{
