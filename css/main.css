@@ -136,6 +136,10 @@ img[alt="icon"] {
   margin: 12px;
 }
 
+#featured-student .grid-6>.row{
+  margin: 0;
+}
+
 #featured-student .grid-6>h2{
   margin-top: 0;
   font-weight: 400;
