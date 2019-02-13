@@ -27,13 +27,19 @@ p {
   margin: 0;
   font-size: 14pt;
   }
+strong{
+  font-weight: bold;
+
+}
 /*ends*/
 
 /*header starts*/
 #header {
-      background-image: url("");
-      background-size: cover;
-      background-color: #8000FF
+  z-index: 1;
+  background-image: url("");
+  background-size: cover;
+  background-color: #8000FF;
+
   }
 #header img {
   border: 2px solid #FFFF00;
@@ -50,9 +56,56 @@ p {
       margin: 0;
       font-weight: bold;
       text-align: center;
+      margin-top: 15px;
   }
 .img-circle {
+  position: absolute;
+  top: 90px;
+  right: 47.2%;
   background-color: #888;
+  z-index: 2;
+  }
+  .grid-6{
+    float: left;
+    width: 16% !important;
+    margin-left: 0;
+    height: 200px;
+    border-right: 1px solid #8333FF;
+
+  }
+
+  .Zamora{
+    margin-left: 1.5%;
+    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FG511CMB4/20161222_224742.jpg");
+    background-size: cover;
+  }
+
+  .Santi{
+    background-image: url();
+    background-size: contain;
+  }
+
+  .Adriaan{
+    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FG04HPETV/ab-portrait.jpg");
+    background-size: cover;
+  }
+
+  .Maya{
+    margin-left: 1%;
+    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FG4GN3YDN/casual-headshot-2.jpg");
+    background-size: cover;
+  }
+
+  .Bless{
+    background-image: url();
+    background-size: cover;
+  }
+
+  .Mumani{
+    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FFZNX4F63/elvis_passport.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: right;
   }
 /*ends*/
 
@@ -61,7 +114,9 @@ p {
 /*ends*/
 
 /*'Featured Intern trainee' starts*/
-
+#featured-student{
+  height: 500px;
+}
 /*ends*/
 
 /*Contact Us starts*/
@@ -99,17 +154,25 @@ input, textarea {
 }
 /*ends*/
 
+
+/*'Social Links' starts*/
 #contacts{
   background-color: #3030CF;
 
+}
+#contacts h1{
+  color: #fff;
+
+}
+#contacts h1 span{
+  border: 2px dashed #eee;
 }
 #social-icons a img{
   margin: 10px;
   height: 32px;
   color: #fff;
 }
-
-
+/*ends*/
 
 
 /*starts*/
