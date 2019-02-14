@@ -51,7 +51,7 @@ li{
 }
 
 #header img {
-  border: 2px solid #FFFF00;
+  border: 2px solid #ddd;
   border-radius: 50%;
   display: block;
   width: 80px;
@@ -71,54 +71,141 @@ li{
 
 .img-circle {
   position: absolute;
-  top: 90px;
+  top: 350px;
   right: 47.2%;
   background-color: #888;
   z-index: 2;
 }
 
+#team-3{
+  height: 550px;
+}
+
 .grid-s{
     float: left;
     width: 16% !important;
-    margin-left: 0;
-    height: 200px;
-    border-right: 1px solid #8333FF;
-
+    margin-left: 1px;
+    height: 450px;
+    background-repeat: no-repeat;
+    border-right: 5px solid transparent;
+    transition: 1s;
   }
 
-  .Zamora{
+.grid-s:hover{
+  cursor: pointer;
+}
+
+.grid-s a{
+  text-decoration: none !important;
+}
+
+.grid-s h1{
+  font-size: 14pt;
+  color: #ddd !important;
+  margin: 300px 20px 0 20px;
+  padding-bottom: 5px;
+}
+
+.grid-s h1:hover{
+  color: #fff !important;
+  border-bottom: 2px solid #fc6442;
+}
+
+.grid-s h2{
+  margin-top: 5px;
+  color: #49f !important;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #8000FF;
+}
+
+.Zamora{
     margin-left: 1.5%;
-    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FG511CMB4/20161222_224742.jpg");
+    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/Z-2.jpg");
     background-size: cover;
+    border: 1px solid #ddd;
   }
 
-  .Santi{
-    background-image: url();
-    background-size: contain;
+.Zamora:hover{
+  margin-left: 1.5%;
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/Z-1.jpg");
+  background-size: cover;
+  border: 1px solid #ddd;
+}
+
+.Santi{
+    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/P-1.jpg");
+    background-size: cover;
+    border: 1px solid #ddd;
+    background-color: #eee;
   }
 
-  .Adriaan{
-    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FG04HPETV/ab-portrait.jpg");
+.Santi:hover{
+    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/P-2.jpg");
     background-size: cover;
+    border: 1px solid #ddd;
+    background-color: #888;
   }
 
-  .Maya{
-    margin-left: 1%;
-    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FG4GN3YDN/casual-headshot-2.jpg");
+.Adriaan{
+    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/A-2.jpg");
     background-size: cover;
+    background-position: left;
+    border: 1px solid #ddd;
   }
 
-  .Bless{
-    background-image: url();
+.Adriaan:hover{
+    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/A-1.jpg");
     background-size: cover;
+    background-position: left;
+    border: 1px solid #ddd;
   }
 
-  .Mumani{
-    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/Mumani_dp.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: right;
-  }
+.Maya{
+  margin-left: 1%;
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/M-2.jpg");
+  background-size: cover;
+  background-position: left;
+  border: 1px solid #ddd;
+
+}
+
+.Maya:hover{
+  margin-left: 1%;
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/M-1.jpg");
+  background-size: cover;
+  background-position: left;
+  border: 1px solid #ddd;
+
+}
+
+.Bless{
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/B-2.jpg");
+  background-size: cover;
+  background-position: left;
+  border: 1px solid #ddd;
+}
+
+.Bless:hover{
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/B-1.jpg");
+  background-size: cover;
+  background-position: left;
+  border: 1px solid #ddd;
+}
+
+.Mumani{
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/E-2.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: right;
+  border: 1px solid #ddd;
+}
+
+.Mumani:hover{
+  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/E-1.jpg");
+  background-size: cover;
+}
 /*ends*/
 
 /*Intro starts*/
