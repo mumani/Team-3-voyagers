@@ -97,6 +97,11 @@ li{
 
 .grid-s a{
   text-decoration: none !important;
+  display: none;
+}
+
+.grid-s:hover>a{
+  display: block;
 }
 
 .grid-s h1{
@@ -221,9 +226,18 @@ li{
   width: 60% !important;
 }
 
+.mLink{
+  display:flex; 
+  align-items: center;
+}
+
+.mLink span{
+  margin-left: 15px;
+}
+
 img[alt="icon"] {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   margin-top: 15px;
 }
 
@@ -256,6 +270,11 @@ img[alt="lang"] {
   font-weight: 200;
   color: #787575;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.skill-h5{
+  margin: 12px 0;
+  font-weight: 200px;
 }
 
 #featured-student .grid-6>h4{
