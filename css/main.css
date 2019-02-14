@@ -47,8 +47,8 @@ li{
   background-image: url("");
   background-size: cover;
   background-color: #8000FF;
+}
 
-  }
 #header img {
   border: 2px solid #FFFF00;
   border-radius: 50%;
@@ -57,6 +57,7 @@ li{
   height: 80px;
   margin: auto;
   }
+
 #header p {
       font-size: 25pt;
       color: #fff;
@@ -66,23 +67,23 @@ li{
       text-align: center;
       margin-top: 15px;
   }
+
 .img-circle {
   position: absolute;
   top: 90px;
   right: 47.2%;
   background-color: #888;
   z-index: 2;
-  }
-  /* .grid-6{
+}
+
+.grid-s{
     float: left;
     width: 16% !important;
     margin-left: 0;
     height: 200px;
     border-right: 1px solid #8333FF;
 
-  } */
-
- 
+  }
 
   .Zamora{
     margin-left: 1.5%;
@@ -112,7 +113,7 @@ li{
   }
 
   .Mumani{
-    background-image: url("https://files.slack.com/files-pri/T47CT8XPG-FFZNX4F63/elvis_passport.jpg");
+    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/Mumani_dp.jpg");
     background-size: cover;
     background-attachment: scroll;
     background-position: right;
