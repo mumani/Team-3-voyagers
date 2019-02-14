@@ -38,6 +38,7 @@ ul{
 li{
   display: block;
   width: 100%;
+  margin-top: 10px;
 }
 /*ends*/
 
@@ -134,15 +135,16 @@ li{
 }
 
 img[alt="icon"] {
-  float: left;
   height: 80px;
   width: 80px;
+  margin-top: 15px;
 }
 
 img[alt="lang"] {
   height: 30px;
   width: 30px;
 }
+
 
 .img{
   background: red;
