@@ -236,7 +236,7 @@ li{
 
 /*'Featured Intern trainee' starts*/
 #featured-student{
-  height: 3000px;
+  height: 3100px;
 }
 
 #featured-student hr{
@@ -247,6 +247,12 @@ li{
 
 .fst{
   margin-top: 15px !important;
+  transition: 0.3s;
+}
+
+.fst:hover{
+  margin-top: -100px;
+  margin-left: 5px;
 }
 
 .text{
