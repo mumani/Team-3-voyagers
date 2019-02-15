@@ -10,7 +10,7 @@ The two main section were replicated from the following websites
 
 The social icons used were from https://www.microverse.org Everything else was built using HTML5 forms and CSS3.
 The font families were imported from https://fonts.google.com in the framework classes.
-The images used were modeled and featured members of microverse's Team-3-voyagers group.
+The images used were modeled and featured members of microverse's Team-3-voyagers group then hosted on Google Drive.
     1.Elizabeth Zamora
     2.Blessed Raymond
     3.Adriaan Beiertz
