@@ -102,7 +102,7 @@ li{
 
 .grid-s:hover>a{
   display: block;
-  
+
 }
 
 .grid-s h1{
@@ -123,7 +123,12 @@ li{
   color: #49f !important;
   font-size: 18px;
   text-align: center;
+}
 
+.grid-s h2:hover{
+  text-decoration: underline;
+  color: #8000FF;
+  text-decoration-color: #49f;
 }
 
 .Zamora{
@@ -220,11 +225,26 @@ li{
 
 /*'Featured Intern trainee' starts*/
 #featured-student{
-  height: 500px;
+  height: 3000px;
+}
+
+#featured-student hr{
+  margin: -30px 10px 0 10px;
+  opacity: 0.7;
+  background-color: #8000FF;
+}
+
+.fst{
+  margin-top: 15px !important;
 }
 
 .text{
   width: 60% !important;
+}
+
+#bio-p{
+  font-size: 17px;
+  text-align: left;
 }
 
 .mLink{
@@ -239,7 +259,8 @@ li{
 img[alt="icon"] {
   height: 70px;
   width: 70px;
-  margin-top: 15px;
+  margin-top: 25px;
+
 }
 
 img[alt="lang"] {
@@ -247,9 +268,24 @@ img[alt="lang"] {
   width: 30px;
 }
 
+.twitter-p{
+  border-radius: 10px;
+}
+
+.twitter-p{
+  height: 70px !important;
+  width: 70px !important;
+  margin-top: 15px;
+  background-color: #00ACEE;
+}
+
+#ig{
+  background-color: #833AB4;
+  border-radius: 20px;
+}
 
 .img{
-  background: red;
+  background: #555;
   height: 450px;
   width: 300px;
 }
@@ -281,6 +317,27 @@ img[alt="lang"] {
 #featured-student .grid-6>h4{
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.skills-items{
+  width: 100px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.skills-items li{
+  margin-bottom: 50px;
+}
+
+.re{
+  margin-left: 35px;
+}
+
+#Rails p{
+  margin-top: -30px;
+  color: #444;
+  font-weight: bold;
+  font-size: 18pt;
 }
 
 /*ends*/
