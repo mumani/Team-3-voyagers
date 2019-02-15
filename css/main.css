@@ -109,6 +109,7 @@ li{
   color: #ddd !important;
   margin: 300px 20px 0 20px;
   padding-bottom: 5px;
+  border-bottom: 2px solid #fc6442;
 }
 
 .grid-s h1:hover{
@@ -121,47 +122,46 @@ li{
   color: #49f !important;
   font-size: 18px;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #8000FF;
+
 }
 
 .Zamora{
     margin-left: 1.5%;
-    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/Z-2.jpg");
+    background-image: url("https://lh3.google.com/u/0/d/1aMXX8GxzajvL9U4CqOuHKnsXdY8xGqTG=w1366-h700-iv1");
     background-size: cover;
     border: 1px solid #ddd;
   }
 
 .Zamora:hover{
   margin-left: 1.5%;
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/Z-1.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/1NM9st8rNpIY1DIdlmuJ3Cxl5TmTpR_7u=w1366-h700-iv1");
   background-size: cover;
   border: 1px solid #ddd;
 }
 
 .Santi{
-    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/P-1.jpg");
+    background-image: url("https://lh3.google.com/u/0/d/1rdSryMGL8jISm0v6c5y8AVQOSKD3gdtX=w1366-h700-iv1");
     background-size: cover;
     border: 1px solid #ddd;
     background-color: #eee;
   }
 
 .Santi:hover{
-    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/P-2.jpg");
+    background-image: url("https://lh3.google.com/u/0/d/1Qb50-CayVkzhPruzciJUvhFnLupxeDCO=w1366-h700-iv1");
     background-size: cover;
     border: 1px solid #ddd;
     background-color: #888;
   }
 
 .Adriaan{
-    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/A-2.jpg");
+    background-image: url("https://lh3.google.com/u/0/d/1e4Upgv3vva3vpi_5Ch5InX49nezt8zSD=w1366-h700-iv1");
     background-size: cover;
     background-position: left;
     border: 1px solid #ddd;
   }
 
 .Adriaan:hover{
-    background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/A-1.jpg");
+    background-image: url("https://lh4.googleusercontent.com/v40VC5ugGIgkHBbOkz2-3cqfs9O6iGbqC8IdFxdezEb9tGvW_61iaRq9txd7Re9qQ4i9djNmrEvf0LDEUauh=w1366-h700-rw");
     background-size: cover;
     background-position: left;
     border: 1px solid #ddd;
@@ -169,7 +169,7 @@ li{
 
 .Maya{
   margin-left: 1%;
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/M-2.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/1jhOvE0bPYrgGh7PgDZfyVKyGV8_N6wVM=w1366-h700-iv1");
   background-size: cover;
   background-position: left;
   border: 1px solid #ddd;
@@ -178,7 +178,7 @@ li{
 
 .Maya:hover{
   margin-left: 1%;
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/M-1.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/1JyyZdC8Gyo2ox565wpJiKi7sXsfs10ts=w1366-h700-iv1");
   background-size: cover;
   background-position: left;
   border: 1px solid #ddd;
@@ -186,21 +186,21 @@ li{
 }
 
 .Bless{
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/B-2.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/15pQdl42T5YMy-NOTcwcOUBbVLXM1evOa=w1366-h700-iv1");
   background-size: cover;
   background-position: left;
   border: 1px solid #ddd;
 }
 
 .Bless:hover{
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/B-1.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/1g0Q_NcbvOspnIhnYTu5hvD72s9v75jAs=w1366-h700-iv1");
   background-size: cover;
   background-position: left;
   border: 1px solid #ddd;
 }
 
 .Mumani{
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/E-2.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/13EGwM7YBQzbGHKnAtXnW6AUyjMvFdY1V=w1366-h700-iv1");
   background-size: cover;
   background-attachment: scroll;
   background-position: right;
@@ -208,7 +208,7 @@ li{
 }
 
 .Mumani:hover{
-  background-image: url("file:///C:/Users/hp/Microverse/CSS-f/team-3-voyagers/image/E-1.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/19_UjL24qvkKMGMCqqhj0MRg7RHazWhDi=w1366-h700-iv1");
   background-size: cover;
 }
 /*ends*/
@@ -227,7 +227,7 @@ li{
 }
 
 .mLink{
-  display:flex; 
+  display:flex;
   align-items: center;
 }
 
