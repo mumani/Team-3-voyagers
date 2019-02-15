@@ -5,11 +5,13 @@ body {
     background-color: #bfbfbf;
     padding: 10px;
 }
+
 .section {
     background-color: #fff;
     margin-bottom: 20px;
     border-radius: 1px;
   }
+
 h1 {
   font-family: Raleway;
   font-size: 15pt;
@@ -18,15 +20,18 @@ h1 {
   padding: 18px 0 18px 0;
   margin: 0 0 10px 0;
   }
+
 h1 span {
   border: 2px dashed #333;
   padding: 10px;
   }
+
 p {
   padding: 0;
   margin: 0;
   font-size: 14pt;
   }
+
 strong{
   font-weight: bold;
 }
@@ -47,7 +52,7 @@ li{
   z-index: 1;
   background-image: url("");
   background-size: cover;
-  background-color: #8000FF;
+  background-color: #fff;
 }
 
 #header img {
@@ -60,13 +65,18 @@ li{
   }
 
 #header p {
+      background-color: #555;
+      border: 1px solid #ccc;
+      font-family: Ubuntu;
       font-size: 25pt;
       color: #fff;
       padding-top: 5px;
       margin: 0;
       font-weight: bold;
       text-align: center;
-      margin-top: 15px;
+      margin: 5px;
+      padding-bottom: 5px;
+      letter-spacing: 1px;
   }
 
 .img-circle {
@@ -132,7 +142,7 @@ li{
 }
 
 .Zamora{
-    margin-left: 1.5%;
+    margin-left: 1.4%;
     background-image: url("https://lh3.google.com/u/0/d/1aMXX8GxzajvL9U4CqOuHKnsXdY8xGqTG=w1366-h700-iv1");
     background-size: cover;
     border: 1px solid #ddd;
@@ -167,7 +177,7 @@ li{
   }
 
 .Adriaan:hover{
-    background-image: url("https://lh4.googleusercontent.com/v40VC5ugGIgkHBbOkz2-3cqfs9O6iGbqC8IdFxdezEb9tGvW_61iaRq9txd7Re9qQ4i9djNmrEvf0LDEUauh=w1366-h700-rw");
+    background-image: url("https://lh3.google.com/u/0/d/1kywHRfFaQPmLUvdsYY6rOCfY2xPT8JCQ=w1366-h700-iv1");
     background-size: cover;
     background-position: left;
     border: 1px solid #ddd;
@@ -285,6 +295,7 @@ img[alt="lang"] {
 }
 
 .img{
+  border-radius: 1px;
   background: #555;
   height: 450px;
   width: 300px;
@@ -333,11 +344,21 @@ img[alt="lang"] {
   margin-left: 35px;
 }
 
+#Rails svg{
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
 #Rails p{
   margin-top: -30px;
   color: #444;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 18pt;
+  letter-spacing: 2px;
+}
+
+#React{
+  margin-top: -10px;
 }
 
 /*ends*/
@@ -347,6 +368,7 @@ form {
     text-align: center;
     margin-top: 0;
 }
+
 .submit {
     background-color: #888;
     padding: 12px 45px;
@@ -358,12 +380,15 @@ form {
     margin: 0;
     font-weight: bold;
 }
+
 .submit:hover {
     background-color: #555;
 }
+
 textarea {
     height: 100px;
 }
+
 input, textarea {
     margin-bottom: 10px;
     font-size: 11pt;
@@ -380,16 +405,19 @@ input, textarea {
 
 /*'Social Links' starts*/
 #contacts{
-  background-color: #3030CF;
+  background-color: #555;
 
 }
+
 #contacts h1{
   color: #fff;
 
 }
+
 #contacts h1 span{
   border: 2px dashed #eee;
 }
+
 #social-icons a img{
   margin: 10px;
   height: 32px;
