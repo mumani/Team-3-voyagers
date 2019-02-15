@@ -65,19 +65,19 @@ li{
   }
 
 #header p {
-      border-radius: 3px;
-      background-color: #555;
-      border: 1px solid #ccc;
-      font-family: Ubuntu;
-      font-size: 25pt;
-      color: #fff;
-      padding-top: 5px;
-      margin: 0;
-      font-weight: bold;
-      text-align: center;
-      margin: 5px;
-      padding-bottom: 5px;
-      letter-spacing: 1px;
+  border-radius: 3px;
+  background-color: #555;
+  border: 1px solid #ccc;
+  font-family: Ubuntu;
+  font-size: 25pt;
+  color: #fff;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
   }
 
 .img-circle {
@@ -93,14 +93,14 @@ li{
 }
 
 .grid-s{
-    float: left;
-    width: 16% !important;
-    margin-left: 1px;
-    height: 450px;
-    background-repeat: no-repeat;
-    border-right: 5px solid transparent;
-    transition: 1s;
-  }
+  float: left;
+  width: 16% !important;
+  margin-left: 1px;
+  height: 450px;
+  background-repeat: no-repeat;
+  border-right: 5px solid transparent;
+  transition: 1s;
+}
 
 .grid-s:hover{
   cursor: pointer;
@@ -157,25 +157,25 @@ li{
 }
 
 .Santi{
-    background-image: url("https://lh3.google.com/u/0/d/1rdSryMGL8jISm0v6c5y8AVQOSKD3gdtX=w1366-h700-iv1");
-    background-size: cover;
-    border: 1px solid #ddd;
-    background-color: #eee;
-  }
+  background-image: url("https://lh3.google.com/u/0/d/1rdSryMGL8jISm0v6c5y8AVQOSKD3gdtX=w1366-h700-iv1");
+  background-size: cover;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
 
 .Santi:hover{
-    background-image: url("https://lh3.google.com/u/0/d/1Qb50-CayVkzhPruzciJUvhFnLupxeDCO=w1366-h700-iv1");
-    background-size: cover;
-    border: 1px solid #ddd;
-    background-color: #888;
-  }
+  background-image: url("https://lh3.google.com/u/0/d/1Qb50-CayVkzhPruzciJUvhFnLupxeDCO=w1366-h700-iv1");
+  background-size: cover;
+  border: 1px solid #ddd;
+  background-color: #888;
+}
 
 .Adriaan{
-    background-image: url("https://lh3.google.com/u/0/d/1e4Upgv3vva3vpi_5Ch5InX49nezt8zSD=w1366-h700-iv1");
-    background-size: cover;
-    background-position: left;
-    border: 1px solid #ddd;
-  }
+  background-image: url("https://lh3.google.com/u/0/d/1e4Upgv3vva3vpi_5Ch5InX49nezt8zSD=w1366-h700-iv1");
+  background-size: cover;
+  background-position: left;
+  border: 1px solid #ddd;
+}
 
 .Adriaan:hover{
     background-image: url("https://lh3.google.com/u/0/d/1kywHRfFaQPmLUvdsYY6rOCfY2xPT8JCQ=w1366-h700-iv1");
