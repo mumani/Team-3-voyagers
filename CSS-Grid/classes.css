@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora|Merriweather|Muli|Open+Sans|Open+Sans+Condensed:300|PT+Sans|Poppins|Raleway|Roboto|Roboto+Condensed|Staatliches|Ubuntu');
+
+
+/*Document Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Grid Classes*/
+.grid-12{
+    width: 100%;
+}
+
+.grid-6{
+    display: inline-block;
+    width: 50%;
+}
+
+.grid-3{
+    display: inline-block;
+    width: 25%;
+}
+
+
+/* Padding Classes*/
+.p-a5{
+    padding: 5px;
+}
+
+.p-a10{
+    padding: 10px;
+}
+
+.p-a15{
+    padding: 15px;
+}
+
+/* Top padding*/
+.pt5{
+    padding-top: 5px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+.pt15{
+    padding-top: 15px;
+}
+
+/* Bottom Padding */
+.pb5{
+    padding-bottom: 5px;
+}
+
+.pb10{
+    padding-bottom: 10px;
+}
+
+.pb15{
+    padding-bottom: 15px;
+}
+
+/* Margin */
+.m-a5{
+    margin: 5px;
+}
+
+.m-a10{
+    margin: 10px;
+}
+
+.m-a15{
+    margin: 15px;
+}
+
+/* MArgin Top */
+.mt5{
+    margin-top: 5px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt15{
+    margin-top: 15px;
+}
+
+/* MArgin Bottom*/
+.mb5{
+    margin-bottom: 5px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.mb15{
+    margin-bottom: 15px;
+}
+
+/* Margin Left */
+
+.ml5{
+    margin-left: 5px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+
+.ml20{
+    margin-left: 20px;
+}
+
+.ml25{
+    margin-left: 25px;
+}
+/*positioning*/
+.center{
+    margin: 0 auto;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+/*Links */
+.mLink{
+    text-decoration: none;
+    color: black;
+}
+
+/* .mLink:hover{
+    text-decoration: underline;
+    text-decoration-color: #0B2B9F;
+    color: #14f;
+} */
+
+/*Buttons*/
+.button{
+    display:inline-block;
+    font-weight:400;
+    color:#ffffff;
+    background-color: #0B2B9F;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: #0B2B9F;
+    border-color: #0B2B9F;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}

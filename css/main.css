@@ -102,18 +102,9 @@ li{
   transition: 1s;
 }
 
-.grid-s:hover{
-  cursor: pointer;
-}
-
-.grid-s a{
+#team-3 a{
   text-decoration: none !important;
-  display: none;
-}
-
-.grid-s:hover>a{
   display: block;
-
 }
 
 .grid-s h1{
@@ -122,18 +113,25 @@ li{
   margin: 300px 20px 0 20px;
   padding-bottom: 5px;
   border-bottom: 2px solid #fc6442;
+  visibility: hidden;
 }
 
-.grid-s h1:hover{
+.grid-s:hover h1{
+  visibility: visible;
   color: #fff !important;
   border-bottom: 2px solid #fc6442;
 }
 
 .grid-s h2{
+  opacity: 0.1;
   margin-top: 5px;
   color: #49f !important;
   font-size: 18px;
   text-align: center;
+}
+
+.grid-s:hover h2{
+  opacity: 1.0;
 }
 
 .grid-s h2:hover{
