@@ -233,10 +233,6 @@ li{
 /*ends*/
 
 /*'Featured Intern trainee' starts*/
-#featured-student{
-  height: 3100px;
-}
-
 #featured-student hr{
   margin: -30px 10px 0 10px;
   opacity: 0.7;
@@ -304,6 +300,10 @@ img[alt="lang"] {
   background: #555;
   height: 450px;
   width: 300px;
+}
+
+img[src="image\Zamora_dp.jpg"]{
+  width: 700px;
 }
 
 #featured-student .grid-6> *{
@@ -434,4 +434,19 @@ input, textarea {
 
 
 /*starts*/
+@media screen and (max-width: 900px){
+  .s-grid{
+    width: 600px;
+  }
+
+  ul{
+    display: flex;
+    margin-right: 95px;
+  }
+
+  ul>li{
+    display: inline;
+    margin-right: 25px;
+  }
+}
 /*ends*/
