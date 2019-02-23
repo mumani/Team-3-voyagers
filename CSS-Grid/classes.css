@@ -11,15 +11,15 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-  vertical-align: baseline;
-  box-sizing: border-box;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 .row{
@@ -40,6 +40,21 @@ time, mark, audio, video {
 .grid-3{
     display: inline-block;
     width: 25%;
+}
+
+@media screen and (max-width: 767px){
+    .row{
+        flex-direction: column;
+    }
+    .grid-6{
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid-3{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -101,7 +116,7 @@ time, mark, audio, video {
 }
 
 .mt10{
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 .mt15{
