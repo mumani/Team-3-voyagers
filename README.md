@@ -1,6 +1,8 @@
 #Team-3-voyagers
 t3v members portfolio page
 
+[Check it Out](https://raw.githack.com/mumani/Team-3-voyagers/development/index.html)
+
 A custom grid framework was from https://github.com/mumani/CSS-Framework/blob/master/classes.css was used in designing the page layout. It's in the classes file in CSS-Grid Folder.
 
 The two main section were replicated from the following websites
