@@ -233,10 +233,6 @@ li{
 /*ends*/
 
 /*'Featured Intern trainee' starts*/
-#featured-student{
-  height: 3100px;
-}
-
 #featured-student hr{
   margin: -30px 10px 0 10px;
   opacity: 0.7;
@@ -257,7 +253,7 @@ li{
   width: 60% !important;
 }
 
-#bio-p{
+.bio-p{
   font-size: 17px;
   text-align: left;
 }
@@ -294,7 +290,7 @@ img[alt="lang"] {
   background-color: #00ACEE;
 }
 
-#ig{
+.ig{
   background-color: #833AB4;
   border-radius: 20px;
 }
@@ -304,6 +300,10 @@ img[alt="lang"] {
   background: #555;
   height: 450px;
   width: 300px;
+}
+
+img[src="image\Zamora_dp.jpg"]{
+  width: 700px;
 }
 
 #featured-student .grid-6> *{
@@ -351,12 +351,12 @@ img[alt="lang"] {
   padding-left: 30px;
 }
 
-#Rails svg{
+.rails svg{
   opacity: 0.7;
   margin-bottom: 10px;
 }
 
-#Rails p{
+.rails p{
   margin-top: -30px;
   color: #444;
   font-weight: 600;
@@ -434,4 +434,19 @@ input, textarea {
 
 
 /*starts*/
+@media screen and (max-width: 900px){
+  .s-grid{
+    width: 600px;
+  }
+
+  ul{
+    display: flex;
+    margin-right: 95px;
+  }
+
+  ul>li{
+    display: inline;
+    margin-right: 25px;
+  }
+}
 /*ends*/
